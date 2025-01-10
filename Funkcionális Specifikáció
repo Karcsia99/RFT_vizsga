@@ -1,3 +1,5 @@
+
+
 #Funkcionális specifikáció
 
 1. Áttekintés
@@ -19,6 +21,11 @@ szoftver használata hosszútávon jelentős kockázatot jelent a cég számára
 |Szerver|K3|Adatbázis kapcsolat|1.0|Adatbázis összekapcsolása a szerverrel.|
 |Szerver|K4|CRUD|1.0|CRUD műveletek megvalósítása a szerver részéről.|
 |Szerver|K5|SWAGGER|1.0|Interaktív dokumentáció.|
-
+|Kliens|K6|C# kliens kialakítása|1.0|A program felületének megtervezése UX szempontból. |
+|Kliens|K7|C# kliens megvalósítása|1.0|A főképernyő megvalósítása. |
+|Kliens|K8|C# kliens megvalósítása|1.0|A menük megvalósítása. |
+|Kliens|K9|C# kliens megvalósítása|1.0|A bejelentkezés felület megvalósítása. |
+|Jogosultság|K10|Jogosultság rendszer|1.0|Jogosultság rendszer a CREATE, UPDATE, DELETE funkciókhoz.|
+|Jogosultság|K11|Jogosultság rendszer|1.0|Jogosultság rendszer a READ funkcióhoz.|
 
 
