@@ -32,7 +32,7 @@ private static void viewInventory() {
         System.out.println("A készlet üres.");
     } else {
         for (String part : inventory) {
-            
+            System.out.println("- " + part);
         }
 
 }
