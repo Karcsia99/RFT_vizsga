@@ -28,4 +28,5 @@ szoftver használata hosszútávon jelentős kockázatot jelent a cég számára
 |Jogosultság|K10|Jogosultság rendszer|1.0|Jogosultság rendszer a CREATE, UPDATE, DELETE funkciókhoz.|
 |Jogosultság|K11|Jogosultság rendszer|1.0|Jogosultság rendszer a READ funkcióhoz.|
 
-
+4. jelenlegi üzleti folyamatok modellje
+A jelenlegi rendszer működése lassú és komplikált. Az adminisztráció során nagy az emberi hibák lehetősége.
