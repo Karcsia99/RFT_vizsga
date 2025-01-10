@@ -1,0 +1,51 @@
+#Követelmény specifikáció
+
+1. Áttekintés
+Egy olyan rendszer fejlesztését várjuk el, amely az Autóalkatrész Kft. munkáját segíti. Célunk, hogy a jelenlegi, elavult raktározási rendszerünket egy modern, gyors, és biztonságos 
+megoldással helyettesítsük. A régi rendszer már nem kompatibilis az új hardverekkel, karbantartása nem biztosított, és egyre nehezebb megfelelni az ipar által támasztott elvárásoknak.
+Az új rendszer segítené a dolgozóinkat abban, hogy valós időben hozzáférhessenek a főraktár készleteihez. Az adatbiztonság érdekében szeretnénk a módosítási műveleteket autentikációhoz 
+kötni. Az új program nemcsak gyorsabb és hatékonyabb munkavégzést biztosítana, hanem a vállalat számára anyagi előnyökkel is járna, mivel jobban kihasználná a rendelkezésre álló informatikai 
+eszközeinket. Mint piacvezető vállalat, fontos számunkra az ügyfeleink és partnereink bizalma. A régi rendszer használata kockáztatná a vállalat hírnevet, hiszen karbantartási hiányosságai 
+miatt biztonsági kockázatot is jelent.
+
+2.Jelenlegi helyzet
+Az Autóalkatrész Kft.-nél jelenleg egy elavult raktározási szoftver van használatban, amely lassú, sebezhető, és nehezen kezelhető az újabb hardvereken. A szoftver már 2005-ben készült, 
+és mivel a karbantartási szerződés lejárt, sem frissítéseket, sem támogatást nem kap. Az adminisztráció időigényes, a felhasználói felület pedig bonyolult, ami megnehezíti az idősebb és 
+fiatalabb dolgozók betanítását is.
+Vezetõségünk és pénzügyi osztályunk arra a következtetésre jutott, hogy egy korszerű szoftver bevezetése hosszútávon sokkal költséghatékonyabb és biztonságosabb megoldás.
+
+3.Vágyálom rendszer
+Az új rendszer célja, hogy egyszerűbbé és gyorsabbá tegye a raktározási folyamatokat. Szeretnénk lehetőséget biztosítani a dolgozók számára, hogy a főraktár készleteit bármikor megtekinthessék, 
+módosításra pedig csak jogosultsággal rendelkezzõ felhasználók legyenek képesek.
+A rendszernek biztosítania kell a valós idejű adatkezelést, ahol párhuzamos műveletek végzése is lehetséges. Az egyszerű, átlátható felhasználói felület szintén elvárás, hogy minimalizáljuk 
+az adminisztrációs hibalehetőségeket és gyorsabbá tegyük a betanítást.
+
+4. Funkcionális követelmények
+Adminisztrátor:
+Bejelentkezés után módosíthatja, törölheti az adatokat és új termékeket adhat hozzá az adatbázishoz.
+Felhasználó:
+Jogosultság nélkül is megtekintheti a raktárkészletet és terméklistákat kérdezhet le terméknév vagy azonosító alapján.
+
+5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+A rendszer felhasználói adatokat tárol, így a GDPR (General Data Protection Regulation) szabályozásainak teljes körű betartása kötelező. A GDPR értelmében biztosítandó jogok:
+Átlátható tájékoztatás
+Hozzáféréshez való jog
+Helyesbítéshez való jog
+Törléshez való jog
+Adathordozhatóság joga
+Kompatibilis operációs rendszerek: Windows
+Adatkezelési nyilatkozat: Az adatkezelési gyakorlat megfelel az aktuális hazai és nemzetközi jogszabályoknak, úgy mint a 2011. évi CXII. törvény és a 2001. évi CVIII. törvény előírásai.
+
+6.Jelenlegi üzleti folyamatok modellje
+A jelenlegi szoftver lassú, bonyolult, és nem biztosít megfelelő adatbiztonságot. A dolgozók számára nehéz a rendszer kezelése, ami hosszabb betanulási időt eredményez. 
+A karbantartás hiánya biztonsági kockázatokat hordoz magában, miközben a rendszer futtatása az új hardvereken támogatási hibákat okoz.
+
+7.Igényelt üzleti folyamatok
+A korszerű rendszer gyorsabbá és pontosabbá tenné a raktározási folyamatokat. Az egyszerű kezelhetőség csökkentené a hibák számát és lehetővé tenné a valós idejű, 
+párhuzamos műveletek végzését. A folyamatos frissítések biztosítanák a rendszer hosszútávú működését és biztonságát.
+
+8.
+
+
+
+
