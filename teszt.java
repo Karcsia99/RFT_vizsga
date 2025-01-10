@@ -22,3 +22,4 @@ private static void addPart(){
     
     System.out.print("Add meg az alkatrész nevét: ");
     String part = scanner.nextLine();
+    inventory.add(part);
