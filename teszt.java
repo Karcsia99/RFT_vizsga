@@ -10,3 +10,7 @@ private static boolean login() {
         if (users.containsKey(username) && users.get(username).equals(password)) {
             System.out.println("Sikeres bejelentkezés!");
             return true;
+        } else {
+            System.out.println("Hibás felhasználónév vagy jelszó.");
+            attempts++;
+        }
