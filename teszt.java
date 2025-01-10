@@ -34,5 +34,5 @@ private static void viewInventory() {
         for (String part : inventory) {
             System.out.println("- " + part);
         }
-
+    }
 }
