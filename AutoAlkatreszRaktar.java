@@ -20,7 +20,7 @@ public class AutoAlkatreszRaktar {
 }
 
 private static void menu() {
-    // GitHub Commit: Added main menu structure by Károly
+    
     while (true) {
         System.out.println("\nFőmenü:");
         System.out.println("1. Alkatrész hozzáadása");
@@ -29,3 +29,28 @@ private static void menu() {
         System.out.println("4. Jelszó módosítása");
         System.out.println("5. Kilépés");
         System.out.print("Választás: ");
+
+        String choice = scanner.nextLine();
+        switch (choice) {
+            case "1":
+                addPart();
+                break;
+            case "2":
+                deletePart();
+                break;
+            case "3":
+                viewInventory();
+                break;
+            case "4":
+                changePassword();
+                break;
+            case "5":
+                System.out.println("Kilépés... Viszlát!");
+                return;
+            default:
+                System.out.println("Érvénytelen választás.");
+        }
+    }
+}
+
+}
