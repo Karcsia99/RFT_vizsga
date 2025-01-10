@@ -1,1 +1,13 @@
 #Funkcionális specifikáció
+
+1. Áttekintés
+A projekt célja egy modern autóalkatrész-készletkezelő rendszer létrehozása, amely kiváltja a jelenleg használatban lévő, elavult 
+szoftvert. Az új rendszer könnyen kezelhető, gyors és megbízható megoldást nyújt, amely lehetővé teszi az alkatrészek raktárkészletének 
+valós idejű nyomon követését, valamint az adatok egyszerű, jogosultság alapú módosítását.
+A rendszer REST API alapú kommunikációval működik, amely biztosítja a stabil és hatékony működést, valamint lehetővé teszi, hogy több 
+felhasználó egyidejűen dolgozhasson rajta. A rendszer elsődlegesen asztali számítógépeken kerül használatba.
+
+
+
+
+
