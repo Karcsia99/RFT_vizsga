@@ -19,20 +19,13 @@ public class AutoAlkatreszRaktar {
         }
 }
 
-private static boolean login() {
-    // GitHub Commit: Added login functionality by Dominika
-    int attempts = 0;
-    while (attempts < 3) {
-        System.out.print("Felhasználónév: ");
-        String username = scanner.nextLine();
-        System.out.print("Jelszó: ");
-        String password = scanner.nextLine();
-        
-        if (users.containsKey(username) && users.get(username).equals(password)) {
-            System.out.println("Sikeres bejelentkezés!");
-            return true;
-        } else {
-            System.out.println("Hibás felhasználónév vagy jelszó.");
-            attempts++;
-        }
-    }
+private static void menu() {
+    // GitHub Commit: Added main menu structure by Károly
+    while (true) {
+        System.out.println("\nFőmenü:");
+        System.out.println("1. Alkatrész hozzáadása");
+        System.out.println("2. Alkatrész törlése");
+        System.out.println("3. Alkatrészek megtekintése");
+        System.out.println("4. Jelszó módosítása");
+        System.out.println("5. Kilépés");
+        System.out.print("Választás: ");
