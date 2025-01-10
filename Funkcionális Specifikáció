@@ -7,6 +7,10 @@ valós idejű nyomon követését, valamint az adatok egyszerű, jogosultság al
 A rendszer REST API alapú kommunikációval működik, amely biztosítja a stabil és hatékony működést, valamint lehetővé teszi, hogy több 
 felhasználó egyidejűen dolgozhasson rajta. A rendszer elsődlegesen asztali számítógépeken kerül használatba.
 
+2. Jelenlegi helyzet
+A jelenlegi raktározási szoftver elavult, lassú és bonyolult a kezelése, valamint nincs támogatás a fejlesztő cégtől. Az újabb 
+hardverekkel összeegyeztethetőségi problémák is jelentkeztek, amelyek akadályozzák a rendszer stabil működését. Ezért a jelenlegi 
+szoftver használata hosszútávon jelentős kockázatot jelent a cég számára.
 
 
 
