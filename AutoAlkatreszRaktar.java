@@ -70,6 +70,7 @@ private static void changePassword() {
         String newPassword = scanner.nextLine();
         users.put(username, newPassword);
         System.out.println("A jelszó sikeresen módosítva!");
+    } else
 
 
 }
