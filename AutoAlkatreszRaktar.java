@@ -69,7 +69,7 @@ private static void changePassword() {
         System.out.print("Add meg az új jelszót: ");
         String newPassword = scanner.nextLine();
         users.put(username, newPassword);
-        System.out.println("A jelszó sikeresen módosítvd!");
+        System.out.println("A jelszó sikeresen módosítva!");
 
 
 }
