@@ -27,5 +27,6 @@ private static void addPart(){
 }
 
 private static void viewInventory() {
-    
+    System.out.println("\nJelenlegi alkatrész-készlet:");
+
 }
