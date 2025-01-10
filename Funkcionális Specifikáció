@@ -43,7 +43,9 @@ Bejelentkezés: Felhasználónév és jelszó megadásával a rendszer adminiszt
 Tétel módosítása: Egy tétel adatait ID alapján frissíti.
 Tétel törlése: Megadott ID alapján tétel eltávolítása.
 Új tétel felvétele: Az úrlapon kitöltött adatokkal tétel hozzáadása.
-
+FELHASZNÁLÓ
+Lekérdezés: Az összes termék vagy egyedi ID alapán történő adatok megtekintése.
+Képernyő törlése: A műveletek során generált információk áttekinthetőségének javítása.
 
 
 
