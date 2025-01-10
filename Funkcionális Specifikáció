@@ -34,7 +34,8 @@ a frissítések hiánya akadályozza a hatékony munkavégzést. Az adatbiztons�
 
 5.Igényelt üzleti folyamatok modellje
 Az új rendszer segít optimalizálni a raktározási folyamatokat egy gyors és egyszerűen kezelhető megoldás biztosításával. A felhasználók 
-számára egyértelmű felületet és gyors adattöltést nyújtanak. 
+számára egyértelmű felületet és gyors adattöltést nyújtanak. Az adminok számára könnyű adatbáziskezelést és biztonságos jogosultságkezelést 
+nyújtunk. A REST API-ra épülő szerkezet lehetővé teszi a folyamatos támogatást és bővítést.
 
 
 
