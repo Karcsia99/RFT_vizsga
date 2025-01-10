@@ -50,7 +50,7 @@ Képernyő törlése: A műveletek során generált információk áttekinthető
 7. Forgatókönyv
 Ideális forgatókönyv:
 A felhasználó belép a rendszerbe, kilistázza a raktár készleteit, és lekérdezi a számára szükséges adatokat.
-
+Admin joggal a bejelentkezés után új tétel vehető fel, illetve a meglévő adatok módosíthatók vagy törölhetők.
 
 
 
