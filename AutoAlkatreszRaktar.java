@@ -71,7 +71,7 @@ private static void changePassword() {
         users.put(username, newPassword);
         System.out.println("A jelszó sikeresen módosítva!");
     } else {
-        
+        System.out.println("Felhasználó nem található.");
     }
 
 
