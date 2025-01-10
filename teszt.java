@@ -24,3 +24,4 @@ private static void addPart(){
     String part = scanner.nextLine();
     inventory.add(part);
     System.out.println("Az alkatrész hozzáadva: " + part);
+}
