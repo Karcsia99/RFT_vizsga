@@ -26,4 +26,6 @@ private static void addPart(){
     System.out.println("Az alkatrész hozzáadva: " + part);
 }
 
-private static void viewInventory()
+private static void viewInventory() {
+    
+}
