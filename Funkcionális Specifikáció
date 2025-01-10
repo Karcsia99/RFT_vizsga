@@ -12,6 +12,13 @@ A jelenlegi raktározási szoftver elavult, lassú és bonyolult a kezelése, va
 hardverekkel összeegyeztethetőségi problémák is jelentkeztek, amelyek akadályozzák a rendszer stabil működését. Ezért a jelenlegi 
 szoftver használata hosszútávon jelentős kockázatot jelent a cég számára.
 
+3. Követelménylista
+|MODUL| ID | NÉV | V.| LEÍRÁS|
+|Jogosultság | K1 | Bejelentkezési felület | 1.0 | A felhasználó az felhasználóneve és jelszava alapján bejelentkezhet.Ha nem megfelelő akkor hibaüzenetet kap.|
+|Adatbázis | K2 | Adatbázis| 1.0 |A program újraindítása során az adatok nem vesznek el.|
+|Szerver|K3|Adatbázis kapcsolat|1.0|Adatbázis összekapcsolása a szerverrel.|
+|Szerver|K4|CRUD|1.0|CRUD műveletek megvalósítása a szerver részéről.|
+|Szerver|K5|SWAGGER|1.0|Interaktív dokumentáció.|
 
 
 
