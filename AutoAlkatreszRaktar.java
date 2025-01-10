@@ -52,5 +52,10 @@ private static void menu() {
         }
     }
 }
+private static void deletePart() {
+    // GitHub Commit: Added part deletion functionality by Károly
+    System.out.print("Add meg az alkatrész nevét, amit törölni szeretnél: ");
+
+}
 
 }
