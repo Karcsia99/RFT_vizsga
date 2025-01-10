@@ -63,8 +63,10 @@ private static void deletePart() {
         }
 }
 private static void changePassword() {
+    System.out.print("Add meg a felhasználóneved: ");
+        String username = scanner.nextLine();
 
-    
+
 }
 
 }
