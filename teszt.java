@@ -17,3 +17,5 @@ private static boolean login() {
     }
     return false;
 }
+
+private static void addPart()
