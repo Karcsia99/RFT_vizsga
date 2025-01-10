@@ -14,3 +14,6 @@ private static boolean login() {
             System.out.println("Hibás felhasználónév vagy jelszó.");
             attempts++;
         }
+    }
+    return false;
+}
