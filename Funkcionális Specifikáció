@@ -1,5 +1,3 @@
-
-
 #Funkcionális specifikáció
 
 1. Áttekintés
@@ -51,6 +49,11 @@ Képernyő törlése: A műveletek során generált információk áttekinthető
 Ideális forgatókönyv:
 A felhasználó belép a rendszerbe, kilistázza a raktár készleteit, és lekérdezi a számára szükséges adatokat.
 Admin joggal a bejelentkezés után új tétel vehető fel, illetve a meglévő adatok módosíthatók vagy törölhetők.
+
+8.Fogalomszótár
+REST API: Egy olyan architektúra, amely az adatátvitel szabványát határozza meg HTTP protokollon keresztül.
+CRUD: Létrehozás (Create), lekérdezés (Read), módosítás (Update), törlés (Delete).
+
 
 
 
