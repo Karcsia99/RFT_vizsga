@@ -62,5 +62,9 @@ private static void deletePart() {
             System.out.println("Az alkatrész nem található.");
         }
 }
+private static void changePassword() {
+
+    
+}
 
 }
