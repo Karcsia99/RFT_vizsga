@@ -18,4 +18,6 @@ private static boolean login() {
     return false;
 }
 
-private static void addPart()
+private static void addPart(){
+    
+    System.out.print("Add meg az alkatrész nevét: ");
