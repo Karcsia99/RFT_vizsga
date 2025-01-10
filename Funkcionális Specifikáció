@@ -53,7 +53,10 @@ Admin joggal a bejelentkezés után új tétel vehető fel, illetve a meglévő 
 8.Fogalomszótár
 REST API: Egy olyan architektúra, amely az adatátvitel szabványát határozza meg HTTP protokollon keresztül.
 CRUD: Létrehozás (Create), lekérdezés (Read), módosítás (Update), törlés (Delete).
-
+UX: Felhasználói élmény.
+ID: Egyedi azonosító.
+Admin: Teljes jogú felhasználó, aki kezelheti a rendszer összes funkcióját.
+Felhasználó: Lekérdezésre jogosult személy.
 
 
 
