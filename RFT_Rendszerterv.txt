@@ -1,0 +1,98 @@
+1. Bevezetés
+Ez a rendszer egy autóalkatrész-raktár kezelését támogatja, 
+amely lehetővé teszi az adminisztrátorok számára az alkatrészek nyilvántartását, 
+karbantartását és kezelését. A rendszer támogatja a felhasználók bejelentkezését, 
+jelszókezelést, valamint az alkatrészkészlet kezelését (hozzáadás, törlés, megtekintés).
+
+
+2. Követelmények
+Funkcionális követelmények:
+Bejelentkezési lehetőség felhasználónévvel és jelszóval.
+Sikertelen bejelentkezés után három próbálkozás lehetősége.
+Jelszó módosításának lehetősége.
+Autóalkatrészek nyilvántartása, beleértve az alábbi funkciókat:
+Alkatrész hozzáadása.
+Alkatrész törlése.
+Készlet megtekintése.
+
+Nem funkcionális követelmények:
+Könnyen kezelhető parancssoros felhasználói felület.
+Gyors adatfeldolgozás.
+Egyszerű bővíthetőség új funkciókkal.
+Biztonságos jelszókezelés.
+
+
+3. Rendszerarchitektúra
+Felépítés:
+A rendszer egy Java-alapú konzolos alkalmazás, amelyben az adatok memóriában kerülnek tárolásra.
+Az adatok két fő adattárolót használnak:
+users: Felhasználók listája (felhasználónév és jelszó párok).
+inventory: Az autóalkatrészek listája.
+
+Komponensek:
+Bejelentkezési modul:
+Felhasználói adatok hitelesítése.
+Bejelentkezési próbálkozások kezelése.
+Menükezelő modul:
+Felhasználói interakció vezérlése (menü opciók).
+Alkatrészkészlet-kezelő modul:
+Hozzáadás, törlés és megtekintés funkciók megvalósítása.
+Jelszókezelő modul:
+Jelszó módosítása felhasználó által.
+
+
+4. Adatszerkezetek
+users:
+Típus: Map<String, String>
+Tartalom: Kulcs-érték párok, ahol a kulcs a felhasználónév, az érték a jelszó.
+inventory:
+Típus: List<String>
+Tartalom: Egy listában tárolja az autóalkatrészek nevét.
+5. Fő modulok részletezése
+5.1 Bejelentkezési modul:
+Ellenőrzi, hogy a megadott felhasználónév és jelszó érvényes-e.
+Három próbálkozás sikertelenség esetén a rendszer kilép.
+5.2 Menükezelő modul:
+Opciókat biztosít a felhasználó számára:
+Alkatrészek hozzáadása, törlése, megtekintése.
+Jelszó módosítása.
+Kilépés.
+5.3 Alkatrészkészlet-kezelő modul:
+Alkatrész hozzáadása:
+A felhasználó által megadott alkatrész nevét a lista végéhez adja.
+Alkatrész törlése:
+A felhasználó által megadott nevű alkatrészt eltávolítja a listából.
+Készlet megtekintése:
+Kiírja a készlet tartalmát; ha a készlet üres, tájékoztat erről.
+5.4 Jelszókezelő modul:
+Ellenőrzi, hogy a felhasználónév létezik-e.
+A felhasználó új jelszót adhat meg, amely felülírja a meglévőt.
+
+
+6. Felhasználói folyamat
+Indítás:
+A program üdvözli a felhasználót.
+Bejelentkezést kér.
+Menü:
+A felhasználó választ egy opciót:
+Alkatrész hozzáadása.
+Alkatrész törlése.
+Készlet megtekintése.
+Jelszó módosítása.
+Kilépés.
+Folyamatok:
+A választott opció végrehajtása.
+Sikeres művelet esetén visszatérés a főmenübe.
+Kilépés:
+A felhasználó kijelentkezik, vagy túl sok sikertelen próbálkozás esetén a program automatikusan kilép.
+
+
+7. Hibakezelés
+Hibás bejelentkezés esetén a rendszer figyelmeztetést küld.
+Ha az alkatrész nem található, a törlés sikertelen, és értesítést kap a felhasználó.
+Az üres készlet megtekintése esetén üzenetet ad a rendszer.
+8. Jövőbeli fejlesztések
+Többfelhasználós támogatás jogosultsági szintekkel (pl. admin, raktáros).
+Alkatrészek részletes adatainak nyilvántartása (pl. cikkszám, ár, készletmennyiség).
+Fájlalapú adattárolás az adatok tartóssága érdekében.
+Grafikus felhasználói felület (GUI) integrálása.
