@@ -44,7 +44,34 @@ A karbantartás hiánya biztonsági kockázatokat hordoz magában, miközben a r
 A korszerű rendszer gyorsabbá és pontosabbá tenné a raktározási folyamatokat. Az egyszerű kezelhetőség csökkentené a hibák számát és lehetővé tenné a valós idejű, 
 párhuzamos műveletek végzését. A folyamatos frissítések biztosítanák a rendszer hosszútávú működését és biztonságát.
 
-8.
+8.Követelménylista
+
+|MODUL| ID | NÉV | V.| LEÍRÁS|
+|Jogosultság | K1 | Bejelentkezési felület | 1.0 | A felhasználó az felhasználóneve és jelszava alapján bejelentkezhet.Ha nem megfelelő akkor hibaüzenetet kap.|
+|Adatbázis | K2 | Adatbázis| 1.0 |A program újraindítása során az adatok nem vesznek el.|
+|Szerver|K3|Adatbázis kapcsolat|1.0|Adatbázis összekapcsolása a szerverrel.|
+|Szerver|K4|CRUD|1.0|CRUD műveletek megvalósítása a szerver részéről.|
+|Szerver|K5|SWAGGER|1.0|Interaktív dokumentáció.|
+|Kliens|K6|C# kliens kialakítása|1.0|A program felületének megtervezése UX szempontból. |
+|Kliens|K7|C# kliens megvalósítása|1.0|A főképernyő megvalósítása. |
+|Kliens|K8|C# kliens megvalósítása|1.0|A menük megvalósítása. |
+|Kliens|K9|C# kliens megvalósítása|1.0|A bejelentkezés felület megvalósítása. |
+|Jogosultság|K10|Jogosultság rendszer|1.0|Jogosultság rendszer a CREATE, UPDATE, DELETE funkciókhoz.|
+|Jogosultság|K11|Jogosultság rendszer|1.0|Jogosultság rendszer a READ funkcióhoz.|
+
+9.Fogalomtár
+-CRUD: CREATE, READ, UPDATE, DELETE műveletek
+-UX: User Experience (felhasználói élmény)
+-Admin: Magasabb jogosultságú felhasználó, aki módosíthatja az adatokat.
+-Felhasználó: Csak lekérdezési jogosultságokkal rendelkező munkatárs.
+-ID: Egyedi azonosító az adatbázisban szereplő elemekhez.
+-Jelszó: egy egyedi biztonsági kód, mely biztosítja, hogy csak az arra jogosult szemályek léphessenek be az adminisztrációs felületre
+
+
+
+
+
+
 
 
 
