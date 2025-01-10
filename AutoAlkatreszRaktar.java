@@ -63,9 +63,10 @@ private static void deletePart() {
         }
 }
 private static void changePassword() {
+    // GitHub Commit: Added password change functionality by Károly
     System.out.print("Add meg a felhasználóneved: ");
-        String username = scanner.nextLine();
-        if (users.containsKey(username))
+    String username = scanner.nextLine();
+    if (users.containsKey(username)) {
         System.out.print("Add meg az új jelszót: ");
         String newPassword = scanner.nextLine();
         users.put(username, newPassword);
@@ -73,8 +74,6 @@ private static void changePassword() {
     } else {
         System.out.println("Felhasználó nem található.");
     }
-
-
 }
 
 }
