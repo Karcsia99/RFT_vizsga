@@ -67,6 +67,7 @@ private static void changePassword() {
         String username = scanner.nextLine();
         if (users.containsKey(username))
         System.out.print("Add meg az új jelszót: ");
+        String newPassword = scanner.nextLine();
 
 
 }
