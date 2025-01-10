@@ -21,3 +21,4 @@ private static boolean login() {
 private static void addPart(){
     
     System.out.print("Add meg az alkatrész nevét: ");
+    String part 
