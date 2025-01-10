@@ -31,6 +31,8 @@ private static void viewInventory() {
     if (inventory.isEmpty()) {
         System.out.println("A készlet üres.");
     } else {
-        for (String part : inventory)
+        for (String part : inventory) {
+            
+        }
 
 }
