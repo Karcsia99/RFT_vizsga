@@ -19,7 +19,6 @@ public class AutoAlkatreszRaktar {
         }
 }
 private static boolean login() {
-        // GitHub Commit: Added login functionality by Dominika
         int attempts = 0;
         while (attempts < 3) {
             System.out.print("Felhasználónév: ");
@@ -71,6 +70,14 @@ private static void menu() {
         }
     }
 }
+private static void addPart() {
+        // GitHub Commit: Added part addition functionality by Dominika
+        System.out.print("Add meg az alkatrész nevét: ");
+        String part = scanner.nextLine();
+        inventory.add(part);
+        System.out.println("Az alkatrész hozzáadva: " + part);
+    }
+    
 private static void deletePart() {
     
     System.out.print("Add meg az alkatrész nevét, amit törölni szeretnél: ");
