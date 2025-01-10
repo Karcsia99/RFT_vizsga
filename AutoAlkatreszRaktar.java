@@ -11,4 +11,10 @@ public class AutoAlkatreszRaktar {
         users.put("admin", "password123"); // Alapértelmezett felhasználó
 
         System.out.println("Üdvözöljük az autóalkatrész-készlet-kezelő rendszerben!");
+
+        if (login()) {
+            menu();
+        } else {
+            System.out.println("Túl sok sikertelen próbálkozás. Kilépés...");
+        }
 }
