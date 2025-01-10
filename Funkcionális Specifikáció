@@ -37,7 +37,12 @@ Az új rendszer segít optimalizálni a raktározási folyamatokat egy gyors és
 számára egyértelmű felületet és gyors adattöltést nyújtanak. Az adminok számára könnyű adatbáziskezelést és biztonságos jogosultságkezelést 
 nyújtunk. A REST API-ra épülő szerkezet lehetővé teszi a folyamatos támogatást és bővítést.
 
-
+6. Használati esetek
+ADMIN:
+Bejelentkezés: Felhasználónév és jelszó megadásával a rendszer adminisztrálásához való hozzáférés biztosítása.
+Tétel módosítása: Egy tétel adatait ID alapján frissíti.
+Tétel törlése: Megadott ID alapján tétel eltávolítása.
+Új tétel felvétele: Az úrlapon kitöltött adatokkal tétel hozzáadása.
 
 
 
