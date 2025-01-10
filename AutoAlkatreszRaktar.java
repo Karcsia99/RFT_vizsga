@@ -71,7 +71,6 @@ private static void menu() {
     }
 }
 private static void addPart() {
-        // GitHub Commit: Added part addition functionality by Dominika
         System.out.print("Add meg az alkatrész nevét: ");
         String part = scanner.nextLine();
         inventory.add(part);
@@ -88,6 +87,17 @@ private static void deletePart() {
             System.out.println("Az alkatrész nem található.");
         }
 }
+private static void viewInventory() {
+        System.out.println("\nJelenlegi alkatrész-készlet:");
+        if (inventory.isEmpty()) {
+            System.out.println("A készlet üres.");
+        } else {
+            for (String part : inventory) {
+                System.out.println("- " + part);
+            }
+        }
+}
+    
 private static void changePassword() {
     // GitHub Commit: Added password change functionality by Károly
     System.out.print("Add meg a felhasználóneved: ");
