@@ -30,6 +30,7 @@ private static void viewInventory() {
     System.out.println("\nJelenlegi alkatrész-készlet:");
     if (inventory.isEmpty()) {
         System.out.println("A készlet üres.");
-    } else 
+    } else {
+        for (String part : inventory)
 
 }
