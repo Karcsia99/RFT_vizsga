@@ -29,7 +29,9 @@ Tesztelési Megjegyzések
 - A rendszer stabilan működött, minden modul hibátlanul teljesített a tesztek során.
 - A hibakezelési modul megfelelően kezeli a váratlan inputokat és hibás adatokat.
 - Az adatbiztonsági funkciók validációja sikeres volt, minden érzékeny adat védett.
+- A rendszer válaszideje megfelelő volt, minden funkció gyorsan elérhető volt, nem tapasztaltunk késlekedést.
+- A felhasználói jogosultságok megfelelően érvényesültek, a különböző szintű felhasználók nem fértek hozzá mások adataihoz.
+- Az adatbázis integráció jól működött, nem tapasztaltunk adatvesztést vagy inkonzisztenciát.
 
 ---------------------------------------------
-
 
