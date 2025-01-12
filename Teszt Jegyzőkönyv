@@ -1,16 +1,35 @@
-#TESZT JEGYZŐKÖNYV
+💡 Tesztjegyzőkönyv 💡
 
-Tesztelők: Antal Károly, Sirkó dominika
-Tesztelés dátuma: 2025.01.10
-REST kliens: Fejlesztői manuális teszt 
+---------------------------------------------
 
-A sikeres tesztelés biztosítja, hogy a rendszer minden funkciója az elvárásoknak megfelelően működik, és megfelel a meghatározott 
-specifikációknak. A tesztelési folyamat során azonosított hibákat meg kell keresni és megoldást találni a problémákra.
-Fontos, hogy a tesztelés különböző szintjei, beleértve az egységteszteket, az integrációs teszteket és a végfelhasználói teszteket, 
-maradéktalanul lefedjék az alkalmazás kritikus részeit.A tesztek végrehajtása során a valós felhasználói környezetet szimuláló 
-helyzeteket kell kialakítani, hogy garantálható legyen a rendszer megbízhatósága és stabilitása.
-A sikeres tesztelés alapja a megfelelően előkészített tesztesetek, amelyek pontosan meghatározzák az elvárt kimeneteket és az 
-elfogadási kritériumokat.
+Tesztelők: Dominika, Károly
+Dátum: 2025.01.12
+Szerver: Java alkalmazás konzolos futtatása
+REST kliens: Fejlesztői manuális teszt
 
+---------------------------------------------
+
+Java Alkalmazás Tesztelése
+Modul                    | Tesztelő  | Dátum       | Működik-e? | Megjegyzés
+-------------------------|-----------|-------------|------------|-------------------------
+Bejelentkezési funkció   | Dominika  | 2025.01.12. | Igen       | Megfelelően működik
+Jelszó módosítása        | Károly    | 2025.01.12. | Igen       | Megfelelően működik
+Felhasználók kezelése    | Dominika  | 2025.01.12. | Igen       | Megfelelően működik
+Alkatrész hozzáadása     | Károly    | 2025.01.12. | Igen       | Megfelelően működik
+Alkatrész törlése        | Dominika  | 2025.01.12. | Igen       | Megfelelően működik
+Alkatrészek megtekintése | Károly    | 2025.01.12. | Igen       | Megfelelően működik
+Rendszer stabilitása     | Dominika  | 2025.01.12. | Igen       | Megfelelően működik
+Hibakezelés tesztelése   | Károly    | 2025.01.12. | Igen       | Megfelelően működik
+Felhasználói élmény      | Dominika  | 2025.01.12. | Igen       | Megfelelően működik
+Adatbiztonság teszt      | Károly    | 2025.01.12. | Igen       | Megfelelően működik
+
+---------------------------------------------
+
+Tesztelési Megjegyzések
+- A rendszer stabilan működött, minden modul hibátlanul teljesített a tesztek során.
+- A hibakezelési modul megfelelően kezeli a váratlan inputokat és hibás adatokat.
+- Az adatbiztonsági funkciók validációja sikeres volt, minden érzékeny adat védett.
+
+---------------------------------------------
 
 
